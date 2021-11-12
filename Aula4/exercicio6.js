@@ -4,7 +4,8 @@ const meuCachorro = {
     "nome": "Spike",
     "patas": 4,
     "caudas": 1,
-    "principalAmigo": "Humano"
+    "principalAmigo": "Humano",
+    "brinquedoFavorito": "bolinha"
   };
 
   
