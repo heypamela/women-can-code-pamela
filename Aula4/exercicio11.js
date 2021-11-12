@@ -2,9 +2,8 @@
 
 
 const nossoArray = ["Fonseca", "Gabriela", "js"];
-const updateNossoArray = nossoArray.pop();
-console.log(updateNossoArray);
+const removidoDoArray = nossoArray.pop();
+console.log(removidoDoArray);
 
-nossoArray.push('removidoDoArray');
 console.log(nossoArray);
 
