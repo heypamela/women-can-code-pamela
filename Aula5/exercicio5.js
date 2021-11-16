@@ -14,4 +14,4 @@ function validaMaiorDeIdade(anoDeNascimento){
     }
 }
 
-console.log(validaMaiorDeIdade(2003));
+console.log(validaMaiorDeIdade(2000));

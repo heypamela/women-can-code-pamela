@@ -13,4 +13,10 @@ for(pares = 0; pares <= valoresNum.length; pares++){
 }
 }
 
+for(pares = 0; parares < valoresNum.length; pares++){
+  if(valoresNum[pares] % 2 == 0){
+    console.log(valoresNum[pares])
+  }
+}
+
 console.log(criaPares(valoresNum));

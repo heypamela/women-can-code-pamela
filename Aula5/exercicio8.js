@@ -15,9 +15,8 @@ const pedidos = [
   ];
 
 
-const statusPedido = pedidos.forEach(function(pedido){
-    const status = {status: pedido.status};
-
+ pedidos.forEach(function(pedido){
+    const status = pedido.status;
 
    if(pedido.status == "em preparo"){
         console.log("Seu pedido está sendo preparado!");
@@ -30,5 +29,3 @@ const statusPedido = pedidos.forEach(function(pedido){
     }
     
 });
-
-console.log(statusPedido);
